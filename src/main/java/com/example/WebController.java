@@ -19,6 +19,7 @@ public class WebController {
 
     @RequestMapping(method = RequestMethod.GET, value = {"/saymyname/{name}"})
     public ModelAndView saymyname(@PathVariable("name") String name) {
-        return new ModelAndView("name").addObject("name", name);
+        return new ModelAndView("name").
+                addObject("name", name);
     }
 }

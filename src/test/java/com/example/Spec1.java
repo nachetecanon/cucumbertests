@@ -7,7 +7,11 @@ import cucumber.api.java8.En;
  */
 public class Spec1 implements En {
 
+
+
     public Spec1() {
-        //Given("I have loaded hello page")
+        Given("I have loaded hello page",() -> {
+
+        });
     }
 }
