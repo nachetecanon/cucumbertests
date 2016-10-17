@@ -1,4 +1,4 @@
-package com.example.features.steps.serenity;
+package com.example.features.steps.statichello;
 
 import com.example.pages.HelloPage;
 import net.thucydides.core.annotations.Step;

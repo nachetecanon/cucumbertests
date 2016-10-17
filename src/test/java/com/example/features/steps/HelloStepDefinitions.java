@@ -1,19 +1,16 @@
 package com.example.features.steps;
 
-import com.example.features.steps.serenity.HelloSteps;
+import com.example.features.steps.statichello.HelloSteps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import org.openqa.selenium.WebDriver;
 
 /**
  * Created by icanon on 13/10/16.
  */
 public class HelloStepDefinitions {
 
-    @Managed(driver = "chrome")
-    WebDriver driver;
+
     @Steps
     private HelloSteps helloSteps;
 
